@@ -3,6 +3,7 @@ import axios from "axios";
 import Navbar from "./Navbar";
 import breaking from "./logo/news.jpeg";
 import ScrollBar from "./logo/components/ScrollBar";
+import Bing from "./Bing";
 
 function App() {
   const [data, setData] = useState([]);
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className="">
+    <Bing/>
       <Navbar setSearch={setSearch} search={search} setCountry={setCountry}
        />
        <ScrollBar setCategory={setCategory}/>
