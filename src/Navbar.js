@@ -37,7 +37,7 @@ const Navbar = (props) => {
           onChange={(e) => {
             setSearch(e.target.value);
           }}
-          className="px-6 py-1 rounded-full outline-none text-black placeholder:text-center placeholder:text-sm"
+          className="px-2 max-sm:w-32 w-80 lg:px-6 py-1 mx-4 rounded-full outline-none text-black placeholder:text-center placeholder:text-sm"
           type="text"
           placeholder="Search News"
         />
